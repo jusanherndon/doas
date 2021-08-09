@@ -1,0 +1,6 @@
+---
+- name: replacing doas file
+  copy:
+    src: "doas.conf"
+    dest: "/etc/doas.conf"
+    force: yes
